@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/manjukolkar/scroll-web.git'
+                git 'https://github.com/AbhishekUS1/scroll-web.git'
             }
         }
 
@@ -55,3 +55,4 @@ pipeline {
         }
     }
 }
+
