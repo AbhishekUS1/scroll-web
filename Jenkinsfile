@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        // ✅ Use your actual Docker Hub repo name
         DOCKER_IMAGE = 'abhishek397/test-dev:latest'
     }
 
